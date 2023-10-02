@@ -1,18 +1,42 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Omnikong Mobile Development</title>
+        <title>OMNIKONG</title>
         <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
-    <body style="background-color:rgb(4, 4, 4);">
-        <div id="logo">
+    <body style="background-color:black;">
+        <div id="logo-container">
             <img id="logo-img" src="images/omnikong_logo.png" alt="Omnikong Logo">
         </div>               
-
+    
         <div id="buttons">
             <button id="contact">Contact</button>
-            <button id="portfolio">Portfolio</button>
+            <button id="projects">Projects</button>
             <button id="awards">Awards</button>
         </div>
-    </body>
+    
+        <button id="back">Back</button>
+    
+        <!-- Contact content -->
+        <div id="contact-content" style="display: none;">
+            <!-- Your contact content goes here -->
+        </div>
+    
+        <!-- Projects content -->
+        <div id="projects-content" style="display: none;">
+            <div class="project">
+                <h2>BoredGames</h2>
+                <p>iMessage app (Swift 5)</p>
+                <a href="https://apps.apple.com/us/app/bored-games/id1644618221" target="_blank">
+                    <img src="#" alt="App Store Link">
+                </a>
+            </div>            
+        </div>
+    
+        <!-- Awards content -->
+        <div id="awards-content" style="display: none;">
+            <!-- Your awards content goes here -->
+        </div>
+        <script src="app.js"></script>
+    </body>    
 </html>
